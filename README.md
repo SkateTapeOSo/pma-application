@@ -14,13 +14,21 @@ This link goes directly to the wizard served at the repo root (`index.html`).
 
 ## 📜 Features
 
-- Single-file `index.html` (self-contained: HTML + CSS + JS + embedded seal).
-- Sticky header (seal + title stay fixed when navigating).
+- Self-contained single-file `index.html` (HTML + CSS + JS + embedded seal).
+- Sticky header (seal + title remain visible while navigating).
 - Print/PDF optimized for **US Letter (8.5″ × 11″)**.
 - “Download Application” button to save data.
 - Fade-in/fade-out thank-you message after submission.
 - Secure submission via **Formspree** to  
   `support@bruceroyaltrust.services`.
+
+---
+
+## 🛠 Development Notes
+
+- To update the wizard, edit `index.html` in the repo root.
+- GitHub Pages serves `index.html` directly at the root URL above.
+- Changes pushed to `main` automatically update the live site.
 
 ---
 
